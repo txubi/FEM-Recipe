@@ -173,8 +173,14 @@ td {
     justify-content: center;
   }
   main {
-    width: 50%;
+    width: 60%;
     height: 2750px;
     border-radius: 20px;
+  }
+  img {
+    border-radius: 20px 20px 0 0;
+  }
+  table {
+    width: 100%;
   }
 }
