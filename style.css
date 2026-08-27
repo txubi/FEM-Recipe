@@ -57,7 +57,22 @@ h2 {
   font-style: normal;
 } */
 
-/* Layout  */
+/* Mobile Layout  */
 img {
   width: 100%;
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+article {
+  align-self: center;
+  width: 80%;
+}
+.nutrition {
+  display: flex;
+  flex-direction: column;
+}
+table {
+  align-self: center;
 }
