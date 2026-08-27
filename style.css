@@ -145,7 +145,7 @@ ol li {
 }
 ol li::before {
   content: counter(ol-counter) "."; /* Displays the current count */
-  margin-right: 8px; /* Space between number and text */
+  margin-right: 25px; /* Space between number and text */
   flex-shrink: 0; /* Prevents number from squeezing */
   font-weight: bold; /* Optional styling for numbers */
   color: var(--brown-800);
