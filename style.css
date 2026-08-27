@@ -13,9 +13,11 @@
 }
 
 /* Color Styles */
-
 body {
-  color: var(--stone-600);
+  background-color: var(--stone-100);
+}
+main {
+  background-color: var(--white);
 }
 h1,
 strong {
@@ -159,4 +161,11 @@ td {
   padding-left: 30px;
   padding-bottom: 17px;
   padding-top: 17px;
+}
+
+/* Desktop Styles */
+@media screen and (min-width: 500px) {
+  main {
+    background-color: lightblue;
+  }
 }
