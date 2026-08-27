@@ -27,8 +27,9 @@ strong {
   background-color: var(--rose-50);
   color: var(--stone-900);
 }
-h3 {
+.prep-heading {
   color: var(--rose-800);
+  font-size: 1.5rem;
 }
 h2,
 .brown-color {
@@ -88,7 +89,7 @@ article {
   flex-direction: column;
   justify-content: center;
 }
-h3 {
+.prep-heading {
   padding-left: 30px;
   margin-bottom: 0;
   padding-bottom: 0;
