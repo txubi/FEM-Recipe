@@ -69,14 +69,18 @@ article {
   width: 80%;
 }
 .prep-time {
-  height: 300px;
+  height: auto;
+  border-radius: 20px;
+  margin: 0;
+  height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 }
 ul {
   padding: 0;
   list-style: none;
+  margin-left: 15px;
 }
 ul li {
   display: flex;
@@ -113,7 +117,6 @@ ol li {
   counter-increment: ol-counter; /* Increments counter for each item */
   margin-bottom: 8px;
 }
-
 ol li::before {
   content: counter(ol-counter) "."; /* Displays the current count */
   margin-right: 8px; /* Space between number and text */
@@ -121,9 +124,15 @@ ol li::before {
   font-weight: bold; /* Optional styling for numbers */
   color: var(--brown-800);
 }
-
-table {
-  align-self: center;
+tr:not(:last-child) td {
+  border-bottom: 1px solid var(--stone-150);
+}
+td {
+  text-align: left;
+  width: 30%;
+  padding-left: 30px;
+  padding-bottom: 17px;
+  padding-top: 17px;
 }
 h3 {
   padding-left: 30px;
