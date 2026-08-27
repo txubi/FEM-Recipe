@@ -165,7 +165,16 @@ td {
 
 /* Desktop Styles */
 @media screen and (min-width: 500px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 3000px;
+    justify-content: center;
+  }
   main {
-    background-color: lightblue;
+    width: 50%;
+    height: 2750px;
+    border-radius: 20px;
   }
 }
