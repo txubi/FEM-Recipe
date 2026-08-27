@@ -1,3 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+/* .young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+/* .young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
 :root {
   --white: hsl(0, 0%, 100%);
   --stone-100: hsl(30, 54%, 90%);
@@ -8,6 +22,8 @@
   --rose-800: hsl(332, 51%, 32%);
   --rose-50: hsl(330, 100%, 98%);
 }
+
+/* Color Styles */
 
 body {
   color: var(--stone-600);
@@ -25,4 +41,23 @@ h3 {
 h2,
 .brown-color {
   color: var(--brown-800);
+}
+
+/* Typography
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+h1,
+h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+/* Layout  */
+img {
+  width: 100%;
 }
