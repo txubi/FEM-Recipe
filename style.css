@@ -56,6 +56,15 @@ h2 {
 img {
   width: 100%;
 }
+h1 {
+  margin-top: 50px;
+}
+h2 {
+  margin-top: 20px;
+}
+p {
+  margin-bottom: 50px;
+}
 main {
   display: flex;
   flex-direction: column;
@@ -76,6 +85,11 @@ article {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+h3 {
+  padding-left: 30px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 ul {
   padding: 0;
@@ -103,6 +117,19 @@ ul li::before {
 .prep-time li {
   margin-left: 45px;
 }
+.instructions,
+.ingredients {
+  border-bottom: 1px solid var(--stone-150);
+  padding-bottom: 27px;
+  padding-top: 27px;
+}
+.nutrition {
+  padding-bottom: 27px;
+  padding-top: 27px;
+}
+.nutrition p {
+  margin-bottom: 10px;
+}
 ol {
   list-style: none; /* Removes default numbers */
   padding: 0;
@@ -110,7 +137,6 @@ ol {
   */
   margin-left: 15px;
 }
-
 ol li {
   display: flex;
   align-items: flex-start; /* Centers number and text vertically */
@@ -133,7 +159,4 @@ td {
   padding-left: 30px;
   padding-bottom: 17px;
   padding-top: 17px;
-}
-h3 {
-  padding-left: 30px;
 }
