@@ -8,3 +8,21 @@
   --rose-800: hsl(332, 51%, 32%);
   --rose-50: hsl(330, 100%, 98%);
 }
+
+body {
+  color: var(--stone-600);
+}
+h1,
+strong {
+  color: var(--stone-900);
+}
+.prep-time {
+  background-color: var(--rose-50);
+}
+h3 {
+  color: var(--rose-800);
+}
+h2,
+.brown-color {
+  color: var(--brown-800);
+}
