@@ -1,17 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
 
-/* .young-serif-regular {
-  font-family: "Young Serif", serif;
-  font-weight: 400;
-  font-style: normal;
-} */
-/* .young-serif-regular {
-  font-family: "Young Serif", serif;
-  font-weight: 400;
-  font-style: normal;
-} */
-
 :root {
   --white: hsl(0, 0%, 100%);
   --stone-100: hsl(30, 54%, 90%);
@@ -71,14 +60,71 @@ main {
   display: flex;
   flex-direction: column;
 }
+ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
 article {
   align-self: center;
   width: 80%;
 }
-.nutrition {
+.prep-time {
+  height: 300px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
+ul {
+  padding: 0;
+  list-style: none;
+}
+ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+ul li::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background-color: black; /* Bullet color */
+  border-radius: 50%; /* Makes it a circle */
+  margin-right: 30px; /* Space between bullet and text */
+  flex-shrink: 0; /* Keeps the bullet from shrinking */
+}
+.prep-time ul {
+  width: 85%;
+}
+.prep-time li {
+  margin-left: 45px;
+}
+ol {
+  list-style: none; /* Removes default numbers */
+  padding: 0;
+  counter-reset: ol-counter; /* Initializes the counter 
+  */
+  margin-left: 15px;
+}
+
+ol li {
+  display: flex;
+  align-items: flex-start; /* Centers number and text vertically */
+  counter-increment: ol-counter; /* Increments counter for each item */
+  margin-bottom: 8px;
+}
+
+ol li::before {
+  content: counter(ol-counter) "."; /* Displays the current count */
+  margin-right: 8px; /* Space between number and text */
+  flex-shrink: 0; /* Prevents number from squeezing */
+  font-weight: bold; /* Optional styling for numbers */
+  color: var(--brown-800);
+}
+
 table {
   align-self: center;
+}
+h3 {
+  padding-left: 30px;
 }
