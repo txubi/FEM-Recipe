@@ -18,8 +18,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-recipe-page-Ttio66Ee_X](https://www.frontendmentor.io/solutions/responsive-recipe-page-Ttio66Ee_X)
+- Live Site URL: [https://txubi.github.io/FEM-Recipe/](https://txubi.github.io/FEM-Recipe/)
 
 ### Continued development
 
